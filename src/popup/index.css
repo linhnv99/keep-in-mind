@@ -1,11 +1,13 @@
 :root {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
 }
+
 * {
-  font-size: 100%!important;
+  font-size: 100% !important;
 }
+
 body {
   min-width: 450px;
   min-height: 500px;
-  margin: 0!important;
+  margin: 0 !important;
 }

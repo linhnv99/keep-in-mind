@@ -1,3 +1,4 @@
-console.info('chrome-ext template-react-js background script')
-
-export {}
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  console.log('=======REQUEST: ', request.text)
+  sendResponse({})
+})

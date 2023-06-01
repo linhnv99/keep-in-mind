@@ -1,5 +1,6 @@
 import './Popup.css'
-import settingIcon from '../assets/settings.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGear } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <div className="nav">
         <span className="logo">Keep In Mind</span>
         <span className="setting">
-          <img src={settingIcon} alt="Logo" />
+          <FontAwesomeIcon icon={faGear} />
         </span>
       </div>
     </div>
